@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <UltraDev_WebpFix>
+            <version>0.1.0</version>
+        </UltraDev_WebpFix>
+    </modules>
+    <adminhtml>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <UltraDev_WebpFix before="Mage_Adminhtml">UltraDev_WebpFix_Adminhtml</UltraDev_WebpFix>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </adminhtml>
+</config>
